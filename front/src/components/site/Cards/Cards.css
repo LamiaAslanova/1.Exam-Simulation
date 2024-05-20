@@ -1,0 +1,66 @@
+.card{
+    border: none;
+}
+
+.card img{
+    border-radius: 8px;
+}
+
+.card-body{
+    padding: 35px 0 0;
+}
+
+.card-body h5{
+    margin-bottom: 13px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 3px;
+}
+
+.card-body p{
+    margin-bottom: 20px !important;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+}
+
+.card a{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    color: #222222;
+    letter-spacing: 1px;
+}
+
+.cards__section{
+    padding: 80px 0px;
+}
+
+.cards__section input{
+    margin-bottom: 40px;
+    padding: 8px 15px;
+    width: 300px;
+    font-family: "Montserrat";
+}
+
+.cards__section .col-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sort__buttons button{
+    padding: 2px 10px;
+    border: 1px solid #666666;
+}

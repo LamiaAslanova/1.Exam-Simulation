@@ -1,0 +1,10 @@
+.products__section{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products__section table{
+    width: 85%;
+}

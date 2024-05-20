@@ -1,0 +1,70 @@
+.footer__top{
+    background-color: #222222;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer__bottom{
+    background-color: #111111;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer h4{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 33px;
+}
+
+footer p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin: 0;
+}
+
+footer i{
+    color: #999999;
+}
+
+footer .contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 14px;
+}
+
+footer .open{
+    margin-top: 70px;
+}
+
+.twit span{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+}
+
+.twit{
+    margin-bottom: 25px;
+}
+
+footer img{
+    margin-bottom: 25px;
+}
+
+footer a{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}

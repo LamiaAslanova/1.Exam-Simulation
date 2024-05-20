@@ -1,0 +1,10 @@
+.basket__section{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__section table{
+    width: 85%;
+}
