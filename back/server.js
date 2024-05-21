@@ -39,7 +39,8 @@ app.post('/practise4', async (req, res) => {
     const {title, image, description} = req.body
     const newItem = new Practise4 ({title: title, image: image, description: description})
     await newItem.save()
-    res.send(newItem)
+    const allItems = await Practise4.find()
+    res.send(allItems)
 })
 
 app.delete('/practise4/:id', async (req, res) => {
